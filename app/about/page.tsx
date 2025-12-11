@@ -3,7 +3,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "Learn about Buyndle, your trusted wholesale tech partner.",
+  description: "Learn about Buyndle, your trusted bundle and kit specialist.",
 };
 
 export default function AboutPage() {
@@ -12,7 +12,7 @@ export default function AboutPage() {
       <section className="bg-gradient-to-r from-gray-900 to-pink-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4">
           <h1 className="text-3xl font-bold">About Buyndle</h1>
-          <p className="text-gray-300 mt-1">Your trusted tech partner since 2019</p>
+          <p className="text-gray-300 mt-1">Pioneering smart bundling since 2019</p>
         </div>
       </section>
 
@@ -22,16 +22,16 @@ export default function AboutPage() {
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Story</h2>
               <div className="space-y-3 text-gray-600">
-                <p>Buyndle was founded in 2019 in Zurich with one goal: make quality tech accessible at fair prices.</p>
-                <p>Today, we serve over 450 customers worldwide with a catalogue of 2,600+ products. Our success is built on reliability, quality, and customer service.</p>
-                <p>Whether you&apos;re a retailer or individual buyer, we provide wholesale prices, fast delivery, and payment on delivery.</p>
+                <p>Founded in Zurich in 2019, Buyndle pioneered the concept of applying Swiss precision to product bundling.</p>
+                <p>We invented a smart bundling algorithm that analyzes product combinations to maximize value and convenience for our customers.</p>
+                <p>Today, we offer 890+ pre-curated bundles from 2,200+ products, with our custom bundle builder letting you create your perfect kit.</p>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-4">
               {[
                 { n: "6", l: "Years" },
-                { n: "2,600+", l: "Products" },
-                { n: "450+", l: "Customers" },
+                { n: "2,200+", l: "Products" },
+                { n: "890+", l: "Bundles" },
                 { n: "35+", l: "Countries" },
               ].map((s, i) => (
                 <div key={i} className="p-5 bg-pink-50 rounded-xl text-center">
@@ -49,10 +49,10 @@ export default function AboutPage() {
           <h2 className="text-2xl font-bold text-gray-900 text-center mb-8">Our Values</h2>
           <div className="grid md:grid-cols-4 gap-5">
             {[
-              { t: "Quality", d: "Every product tested before shipping" },
-              { t: "Trust", d: "Transparent pricing, no hidden fees" },
-              { t: "Speed", d: "Fast 24/48h delivery worldwide" },
-              { t: "Service", d: "Responsive support team" },
+              { t: "Value", d: "Maximum savings through intelligent bundle combinations" },
+              { t: "Convenience", d: "Pre-made kits and custom builder for effortless shopping" },
+              { t: "Precision", d: "Swiss engineering applied to every bundle recommendation" },
+              { t: "Innovation", d: "AI-powered bundle suggestions and smart algorithms" },
             ].map((v, i) => (
               <div key={i} className="p-5 bg-white rounded-xl border border-gray-100">
                 <h3 className="font-semibold text-gray-900 mb-1">{v.t}</h3>
@@ -68,11 +68,10 @@ export default function AboutPage() {
           <h2 className="text-2xl font-bold text-gray-900 text-center mb-8">Milestones</h2>
           <div className="space-y-4">
             {[
-              { y: "2019", t: "Founded in Zurich" },
-              { y: "2020", t: "Expanded into audio products" },
-              { y: "2021", t: "Launched international shipping" },
-              { y: "2023", t: "Reached 500+ customers" },
-              { y: "2024", t: "2,600+ products in catalogue" },
+              { y: "2019", t: "Developed bundle concept and founded company" },
+              { y: "2020", t: "Launched smart bundling algorithm" },
+              { y: "2022", t: "Released custom bundle builder tool" },
+              { y: "2024", t: "Introduced AI-powered bundle recommendations" },
             ].map((m, i) => (
               <div key={i} className="flex gap-4 items-center">
                 <span className="text-pink-600 font-bold w-14">{m.y}</span>
@@ -86,8 +85,8 @@ export default function AboutPage() {
 
       <section className="bg-pink-600 py-12">
         <div className="max-w-3xl mx-auto px-4 text-center">
-          <h2 className="text-2xl font-bold text-white mb-3">Work with Us</h2>
-          <p className="text-pink-100 mb-5">Join our network of satisfied customers</p>
+          <h2 className="text-2xl font-bold text-white mb-3">Start Bundling</h2>
+          <p className="text-pink-100 mb-5">Experience smarter shopping with our bundle platform</p>
           <Link href="/contact" className="px-6 py-2.5 bg-white text-pink-600 font-medium rounded-lg hover:bg-pink-50">
             Get in Touch
           </Link>

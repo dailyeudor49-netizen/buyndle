@@ -96,7 +96,7 @@ export default function TermsOfServicePage() {
                 Zurich 8001<br />
                 Switzerland<br />
                 Email: info@buyndle.com<br />
-                VAT: CHE-123.456.789<br />
+                VAT: CHE-284.731.956<br />
                 Registered in Switzerland
               </p>
             </div>

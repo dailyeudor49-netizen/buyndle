@@ -51,7 +51,7 @@ export default function Footer() {
         <div className="mt-10 pt-6 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-3 text-sm text-gray-500">
           <p>&copy; {year} Buyndle AG. All rights reserved.</p>
           <div className="flex gap-4">
-            <span>VAT: CHE-123.456.789</span>
+            <span>VAT: CHE-284.731.956</span>
             <span>Registered in Switzerland</span>
           </div>
         </div>
